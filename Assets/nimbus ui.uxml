@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/style%20sheet.uss?fileID=7433441132597879392&amp;guid=90a7afbf23925284d8c5314d7910a667&amp;type=3#style sheet" />
+    <ui:VisualElement style="flex-grow: 1; height: 208px; width: 326px; -unity-background-image-tint-color: rgb(201, 126, 116); -unity-background-scale-mode: scale-and-crop;">
+        <ui:ListView style="height: 132px; width: 860px;" />
+        <ui:Label tabindex="-1" text="                      &#10;ANALYSED DATA" parse-escape-sequences="true" display-tooltip-when-elided="true" style="justify-content: flex-start; align-self: center; align-items: auto; -unity-text-align: upper-center; height: 104px; width: 230px;" />
+        <ui:FloatField label="HEART BEAT" value="42.2" name="Heart_beat" view-data-key="444" style="align-items: flex-start; justify-content: flex-end;" />
+        <ui:FloatField label="HEIGHT ATTAINED" value="42.2" is-delayed="true" readonly="true" style="-unity-background-image-tint-color: rgb(56, 56, 56);" />
+    </ui:VisualElement>
+</ui:UXML>
